@@ -1,0 +1,95 @@
+
+  .card{
+    background-color:white;
+    transition: 300ms ease-in-out;
+    width: 20rem;
+    box-shadow: 0px 0px 40px 0px black;
+    margin: 0rem;
+  }
+  .card + .card{
+    margin-left: -19%;
+  }
+  .card:hover{
+     transform:rotate(-4deg);
+  }
+  .card:hover ~ .card{
+    z-index: 1;
+    translate: 250px;
+  }
+  
+  .text{
+    width:128%;
+    height: 3.95rem;
+    transform: rotate(270deg);
+    margin-top: 10.9rem !important;
+    margin-left: -10.7rem!important;
+    background-color: black;
+    text-align: center;
+    color:white;
+    font-size: 2.2rem;
+    font-family: 800;
+    margin:0rem
+  }
+
+  .img{
+    width:80%;
+    height:100%;
+    z-index:1;
+    object-fit: contain;
+    display: flex;
+    margin-left: 20%;
+    margin-top: -15rem;
+  }
+
+@media screen and (max-width:780px){
+  .card{
+    width: 10rem;
+  }
+  .card + .card{
+    margin-left: -22%!important;
+  }
+  .card:hover{
+     transform:rotate(-4deg);
+  }
+  .card:hover ~ .card{
+    translate: 110px;
+  }
+  
+  .text{
+    width:149%;
+    height: 1.95rem;
+    margin-top: 6.5rem !important;
+    margin-left: -6.2rem!important;
+    font-size: 1.2rem;
+  }
+
+  .img{
+    margin-top: -8rem;
+  }
+}
+@media screen and (max-width:450px){
+  .card{
+    width: 5rem;
+  }
+  .card + .card{
+    margin-left: -27.3%!important;
+  }
+  .card:hover{
+     transform:rotate(-4deg);
+  }
+  .card:hover ~ .card{
+    translate: 110px;
+  }
+  
+  .text{
+    width:162%;
+    height: 0.95rem;
+    margin-top: 3.5rem !important;
+    margin-left: -3.5rem!important;
+    font-size: 0.8rem;
+  }
+
+  .img{
+    margin-top: -4rem;
+  }
+}

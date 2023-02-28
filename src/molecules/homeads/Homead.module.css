@@ -1,0 +1,92 @@
+
+.main{
+    margin-top:10rem;
+    display:flex;
+    height:35rem;
+    border:7px solid white
+}
+.macbook{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-right: 3.5px solid white;
+}.macbook>img{
+    width:42rem
+}
+.macbook>h1{
+    margin-top: 0rem;
+}
+.macbook>h2{
+    margin-top: -2rem;
+}
+.homepod{
+    width:50%;display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-left: 3.5px solid white;
+}
+.homepod>img{
+    width:43rem
+}
+.homepod>h1{
+    margin-top: 0.5rem;
+}
+.homepod>h2{
+    margin-top: -2rem;
+}
+
+.main2{
+    margin-top:0rem;
+    display:flex;
+    height:35rem;
+    border:7px solid white
+}
+.macbook2{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-right: 3.5px solid white;
+}.macbook2>img{
+    width:42rem
+}
+.macbook2>h1{
+    margin-top: 0rem;
+    color: black;
+}
+.macbook2>h2{
+    margin-top: -2rem;
+    color: black;
+}
+.homepod2{
+    width:50%;display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-left: 3.5px solid white;
+}
+.homepod2>img{
+    width:43rem
+}
+.homepod2>h1{
+    margin-top: 0.5rem;
+    color: black;
+}
+.homepod2>h2{
+    margin-top: -2rem;
+    color: black;
+}
+.main3{
+    margin-top:0rem;
+    display:flex;
+    height:35rem;
+    border:7px solid white
+}

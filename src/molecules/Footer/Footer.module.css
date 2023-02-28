@@ -1,0 +1,35 @@
+.main{
+    height:35rem;
+    color:rgb(142, 138, 138);
+    background-color: rgb(31, 30, 30);
+    
+}
+
+.lists{
+   display:flex;
+   flex-direction: column;
+   color: black !important;
+   
+}
+li{
+    display: flex;
+    
+}
+.para{
+    width:96%;
+    margin-left: 2rem;
+}
+@media screen and (max-width: 780px) {
+    .main{
+        height:26rem;
+       
+    }
+    li{
+        font-size: xx-small;
+    }
+    p{
+        font-size: xx-small;
+    }
+
+
+}
